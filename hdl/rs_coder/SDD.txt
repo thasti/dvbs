@@ -1,0 +1,5 @@
+Software Design Document
+Subject: Reed-Solomon coder
+
+The RS encoder shall apply the shortened RS code to every MPEG2-TS frame. The sync (asserted on start of every frame) signal shall be used to reset the internal logic. On the first 188 clock enable pulses, input bytes shall be read and the parity symbols updated. On the next 6 clock enable pulses, the computed parity bytes shall be output, while no new input bytes shall be read.
+

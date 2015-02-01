@@ -1,0 +1,7 @@
+Software Design Document
+Subject: Convolutional Interleaver
+
+The interleaver shall interleave the data according to the DVB-S specification. A sync-signal shall be used to determine start of frame (resetting the interleaving-pattern). On every clock enable signal, one interleaved byte shall be output, while another one is inserted into the line.
+
+The interleaver shall infer BRAM cells for efficient resource usage.
+

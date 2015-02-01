@@ -1,0 +1,5 @@
+Software Design Document
+Subject: Mapper
+
+The mapper shall use binary X and Y inputs from the convolutional coder and output the mapped I/Q symbols. The symbol width shall be configurable. On every clock_enable pulse, one mapped output shall be computed from the input bits.
+

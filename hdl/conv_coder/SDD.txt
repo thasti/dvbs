@@ -1,0 +1,5 @@
+Software Design Document
+Subject: Convolutional Coder
+
+The convolutional coder shall apply the inner coding according to the DVB-S standard. On every clock_enable pulse, one X and Y output bits shall be output from one output bit.
+

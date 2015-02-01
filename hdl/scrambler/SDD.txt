@@ -1,0 +1,5 @@
+Software Design Document
+Subject: Scrambler and MUX adaptation
+
+This component shall apply the specified MUX adaptation and scrambling to the data stream. Data input bytes are presented on every clock enable pulse. The sync signal shall be used to assert the start of a packet. The component shall keep track of the number of passed packets and apply inversion of the sync word to the first of eight packets accordingly.
+

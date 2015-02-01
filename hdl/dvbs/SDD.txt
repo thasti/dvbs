@@ -1,0 +1,5 @@
+Software Design Document
+Subject: DVB-S encoder top level entity
+
+The DVB-S entity shall instantiate all the components needed for a DVB-S modulator. As an interface, it make I and Q data words available as well as the RMII interface needed for the network communication. The system shall work with one 50MHz clock.
+

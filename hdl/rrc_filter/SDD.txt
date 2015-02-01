@@ -1,0 +1,5 @@
+Software Design Document
+Subject: RRC base band shaping filter
+
+The base band shaping filter shall produce one output sample from one new input sample on every clock enable pulse. Filter length and serialisation of the FIR structure shall be configurable via generics. Internal filter computations can also be carried out with regards to the system clock, only input and output registering shall be syncronous to the clock_enable signal.
+

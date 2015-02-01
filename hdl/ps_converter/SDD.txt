@@ -1,0 +1,5 @@
+Software Design Document
+Subject: Parallel/Serial-Converter
+
+Ths P/S converter shall output one bit on every clock enable pulse. A new byte can be latched into the converter by assertion of the start signal.
+

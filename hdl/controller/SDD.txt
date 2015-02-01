@@ -1,0 +1,6 @@
+Software Design Document
+Subject: Controller
+
+The controller shall access the FIFO read interface and watch the data stream. Frame sync shall be monitored and control signals for all modules. See interface specification for needed signals.
+
+

@@ -1,0 +1,8 @@
+Software Design Document
+Subject: MPEG2-TS flow controlled transmitter
+
+The transmitter software shall get the filename of a MPEG2-TS file and a corresponding bit rate as arguments. Two network sockets shall be opened. On port 40000, fixed-length packets read from the file shall be transmitted. Initially, these transmissions shall be sheduled every R/L seconds (with R equal to the bit rate in bit/s and L equal to the length of the transmitted blocks in bit).
+
+A second thread shall listen to UDP packets on port 40001. These flow control packets shall increase or decrease the data rate of the transmitted packets above or below the nominal data rate. This ensures that the FPGA FIFO does not run out of space nor runs empty, causing dropouts.
+
+
