@@ -1,5 +1,0 @@
-Software Design Document
-Subject: Interpolator
-
-The interpolator shall insert zeros in a data stream. On every clock enable pulse, one output datum shall be produced. If d_valid is asserted, the output shall be the input datum, if it is not, zero shall be output. Various upsampling rate changes can be realized by asserting d_valid on every Nth clock enable pulse. Low pass filtering shall be implemented by the following RRC filter.
-

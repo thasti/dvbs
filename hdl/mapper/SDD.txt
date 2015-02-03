@@ -1,5 +1,4 @@
 Software Design Document
-Subject: Mapper
+Subject: Interpolating Mapper
 
-The mapper shall use binary X and Y inputs from the convolutional coder and output the mapped I/Q symbols. The symbol width shall be configurable. On every clock_enable pulse, one mapped output shall be computed from the input bits.
-
+The mapper shall use binary X and Y inputs from the convolutional coder and output the mapped I/Q symbols. The symbol width shall be configurable. On every clock_enable pulse, one mapped output shall be computed from the input bits. Additionally, the mapper shall insert zero-stuffing into the mapped outputs. This is accomplished by a data valid signal. If this signal is asserted, the mapper shall output mapped symbols. Otherwise it output all zeros.
