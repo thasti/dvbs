@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.51 (w)1999-2013 BSI
+[*] Tue Feb  3 17:51:30 2015
+[*]
+[dumpfile] "/home/thasti/projekte/dvbs/hdl/network/rmii_rx/output.ghw"
+[dumpfile_mtime] "Tue Feb  3 17:49:55 2015"
+[dumpfile_size] 71051
+[savefile] "/home/thasti/projekte/dvbs/hdl/network/rmii_rx/gtkwave.sav"
+[timestart] 346000000
+[size] 1024 551
+[pos] -1 50
+*-28.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.rmii_rx_tb.
+[sst_width] 216
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 136
+@200
+-control sigs
+@28
+top.rmii_rx_tb.clk
+top.rmii_rx_tb.rst
+@200
+-input
+@28
+#{top.rmii_rx_tb.rxd[1:0]} top.rmii_rx_tb.rxd[1] top.rmii_rx_tb.rxd[0]
+top.rmii_rx_tb.crsdv
+@201
+-output
+@22
+#{top.rmii_rx_tb.rx_byte[7:0]} top.rmii_rx_tb.rx_byte[7] top.rmii_rx_tb.rx_byte[6] top.rmii_rx_tb.rx_byte[5] top.rmii_rx_tb.rx_byte[4] top.rmii_rx_tb.rx_byte[3] top.rmii_rx_tb.rx_byte[2] top.rmii_rx_tb.rx_byte[1] top.rmii_rx_tb.rx_byte[0]
+@28
+top.rmii_rx_tb.rx_dv
+top.rmii_rx_tb.rx_crs
+[pattern_trace] 1
+[pattern_trace] 0
