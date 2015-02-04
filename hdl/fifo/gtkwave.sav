@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.51 (w)1999-2013 BSI
+[*] Wed Feb  4 13:28:25 2015
+[*]
+[dumpfile] "/home/thasti/projekte/dvbs/hdl/fifo/output.ghw"
+[dumpfile_mtime] "Wed Feb  4 13:27:15 2015"
+[dumpfile_size] 7955
+[savefile] "/home/thasti/projekte/dvbs/hdl/fifo/gtkwave.sav"
+[timestart] 0
+[size] 1024 551
+[pos] -1 50
+*-30.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.fifo_tb.
+[sst_width] 216
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 136
+@200
+-control sigs
+@28
+top.fifo_tb.clk
+top.fifo_tb.rst
+@200
+-input
+@28
+top.fifo_tb.dut.we
+@22
+#{top.fifo_tb.d[7:0]} top.fifo_tb.d[7] top.fifo_tb.d[6] top.fifo_tb.d[5] top.fifo_tb.d[4] top.fifo_tb.d[3] top.fifo_tb.d[2] top.fifo_tb.d[1] top.fifo_tb.d[0]
+@28
+top.fifo_tb.dut.re
+@201
+-output
+@22
+#{top.fifo_tb.q[7:0]} top.fifo_tb.q[7] top.fifo_tb.q[6] top.fifo_tb.q[5] top.fifo_tb.q[4] top.fifo_tb.q[3] top.fifo_tb.q[2] top.fifo_tb.q[1] top.fifo_tb.q[0]
+@28
+top.fifo_tb.dut.full
+top.fifo_tb.dut.al_full
+top.fifo_tb.dut.al_empty
+top.fifo_tb.dut.empty
+[pattern_trace] 1
+[pattern_trace] 0
