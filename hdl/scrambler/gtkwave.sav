@@ -1,0 +1,67 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Feb 11 00:03:45 2015
+[*]
+[dumpfile] "/home/yc/projects15/DAS/dvbs/hdl/scrambler/output.ghw"
+[dumpfile_mtime] "Wed Feb 11 00:03:27 2015"
+[dumpfile_size] 232563
+[savefile] "/home/yc/projects15/DAS/dvbs/hdl/scrambler/gtkwave.sav"
+[timestart] 0
+[size] 1024 721
+[pos] -1 -1
+*-29.352175 1000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.scrambler_tb.
+[treeopen] top.scrambler_tb.dut.
+[sst_width] 201
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 198
+@200
+-=== Scrambler ===
+-external
+@28
+top.scrambler_tb.dut.clk
+top.scrambler_tb.dut.clk_en
+@22
+#{top.scrambler_tb.dut.q[7:0]} top.scrambler_tb.dut.q[7] top.scrambler_tb.dut.q[6] top.scrambler_tb.dut.q[5] top.scrambler_tb.dut.q[4] top.scrambler_tb.dut.q[3] top.scrambler_tb.dut.q[2] top.scrambler_tb.dut.q[1] top.scrambler_tb.dut.q[0]
+#{top.scrambler_tb.dut.d[7:0]} top.scrambler_tb.dut.d[7] top.scrambler_tb.dut.d[6] top.scrambler_tb.dut.d[5] top.scrambler_tb.dut.d[4] top.scrambler_tb.dut.d[3] top.scrambler_tb.dut.d[2] top.scrambler_tb.dut.d[1] top.scrambler_tb.dut.d[0]
+@28
+top.scrambler_tb.dut.sync
+top.scrambler_tb.dut.rst
+@200
+-internal
+@29
+top.scrambler_tb.dut.first_sync
+@28
+top.scrambler_tb.dut.invert
+top.scrambler_tb.dut.enable
+top.scrambler_tb.dut.prbs_rst
+@24
+#{top.scrambler_tb.dut.cnt[7:0]} top.scrambler_tb.dut.cnt[2] top.scrambler_tb.dut.cnt[1] top.scrambler_tb.dut.cnt[0]
+@200
+-== PRBS ==
+@c00022
+#{top.scrambler_tb.dut.prbs15.sr[14:0]} top.scrambler_tb.dut.prbs15.sr[14] top.scrambler_tb.dut.prbs15.sr[13] top.scrambler_tb.dut.prbs15.sr[12] top.scrambler_tb.dut.prbs15.sr[11] top.scrambler_tb.dut.prbs15.sr[10] top.scrambler_tb.dut.prbs15.sr[9] top.scrambler_tb.dut.prbs15.sr[8] top.scrambler_tb.dut.prbs15.sr[7] top.scrambler_tb.dut.prbs15.sr[6] top.scrambler_tb.dut.prbs15.sr[5] top.scrambler_tb.dut.prbs15.sr[4] top.scrambler_tb.dut.prbs15.sr[3] top.scrambler_tb.dut.prbs15.sr[2] top.scrambler_tb.dut.prbs15.sr[1] top.scrambler_tb.dut.prbs15.sr[0]
+@28
+top.scrambler_tb.dut.prbs15.sr[14]
+top.scrambler_tb.dut.prbs15.sr[13]
+top.scrambler_tb.dut.prbs15.sr[12]
+top.scrambler_tb.dut.prbs15.sr[11]
+top.scrambler_tb.dut.prbs15.sr[10]
+top.scrambler_tb.dut.prbs15.sr[9]
+top.scrambler_tb.dut.prbs15.sr[8]
+top.scrambler_tb.dut.prbs15.sr[7]
+top.scrambler_tb.dut.prbs15.sr[6]
+top.scrambler_tb.dut.prbs15.sr[5]
+top.scrambler_tb.dut.prbs15.sr[4]
+top.scrambler_tb.dut.prbs15.sr[3]
+top.scrambler_tb.dut.prbs15.sr[2]
+top.scrambler_tb.dut.prbs15.sr[1]
+top.scrambler_tb.dut.prbs15.sr[0]
+@1401200
+-group_end
+@22
+#{top.scrambler_tb.dut.prbs15.q[7:0]} top.scrambler_tb.dut.prbs15.q[7] top.scrambler_tb.dut.prbs15.q[6] top.scrambler_tb.dut.prbs15.q[5] top.scrambler_tb.dut.prbs15.q[4] top.scrambler_tb.dut.prbs15.q[3] top.scrambler_tb.dut.prbs15.q[2] top.scrambler_tb.dut.prbs15.q[1] top.scrambler_tb.dut.prbs15.q[0]
+[pattern_trace] 1
+[pattern_trace] 0
