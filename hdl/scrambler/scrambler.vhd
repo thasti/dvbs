@@ -37,7 +37,8 @@ begin
 		clk	=> clk,
 		clk_en	=> clk_en,
 		rst	=> prbs_rst,
-		q	=> prbs
+		q	=> prbs,
+		def_val	=> "100101010000000"
 	);
 	prbs_rst <= rst or first_sync;
 
