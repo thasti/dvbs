@@ -6,7 +6,7 @@ use ieee.numeric_std.all;
 
 entity scrambler is
 	generic (
-		width	: positive
+		width	: positive := 8
 	);
 	port (
 		clk	: in std_logic;

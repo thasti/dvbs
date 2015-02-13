@@ -15,9 +15,6 @@ architecture tb of scrambler_tb is
 	signal q 	: std_logic_vector(7 downto 0);
 begin
 	dut : entity work.scrambler
-	generic map (
-		width	=> 8
-	)
 	port map (
 		clk	=> clk,
 		clk_en	=> clk_en,
