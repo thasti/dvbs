@@ -18,7 +18,7 @@ end
 ram = zeros(ram_len, 1) - 1;
 
 % generate input and output vectors
-input = linspace(0, 4*ram_len-1, 4*ram_len);
+input = mod(linspace(0, 4*ram_len-1, 4*ram_len), 256);
 output = zeros(4*ram_len,1) - 2;
 
 % starting branch = 0

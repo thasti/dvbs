@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.51 (w)1999-2013 BSI
+[*] Thu Feb 19 11:34:09 2015
+[*]
+[dumpfile] "/home/thasti/projekte/dvbs/hdl/interleaver/output.ghw"
+[dumpfile_mtime] "Thu Feb 19 11:33:37 2015"
+[dumpfile_size] 290531
+[savefile] "/home/thasti/projekte/dvbs/hdl/interleaver/gtkwave.sav"
+[timestart] 81799000000
+[size] 1024 551
+[pos] 0 0
+*-29.353836 80500000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.interleaver_tb.
+[treeopen] top.interleaver_tb.dut.
+[sst_width] 216
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 136
+@200
+-control sigs
+@28
+top.interleaver_tb.clk
+top.interleaver_tb.rst
+top.interleaver_tb.clk_en
+top.interleaver_tb.sync
+@200
+-input
+@25
+#{top.interleaver_tb.d[7:0]} top.interleaver_tb.d[7] top.interleaver_tb.d[6] top.interleaver_tb.d[5] top.interleaver_tb.d[4] top.interleaver_tb.d[3] top.interleaver_tb.d[2] top.interleaver_tb.d[1] top.interleaver_tb.d[0]
+@200
+-output
+@24
+#{top.interleaver_tb.q[7:0]} top.interleaver_tb.q[7] top.interleaver_tb.q[6] top.interleaver_tb.q[5] top.interleaver_tb.q[4] top.interleaver_tb.q[3] top.interleaver_tb.q[2] top.interleaver_tb.q[1] top.interleaver_tb.q[0]
+@200
+-debug
+@22
+#{top.interleaver_tb.dut.iba_cnt[0][7:0]} top.interleaver_tb.dut.iba_cnt[0][7] top.interleaver_tb.dut.iba_cnt[0][6] top.interleaver_tb.dut.iba_cnt[0][5] top.interleaver_tb.dut.iba_cnt[0][4] top.interleaver_tb.dut.iba_cnt[0][3] top.interleaver_tb.dut.iba_cnt[0][2] top.interleaver_tb.dut.iba_cnt[0][1] top.interleaver_tb.dut.iba_cnt[0][0]
+#{top.interleaver_tb.dut.iba_cnt[1][7:0]} top.interleaver_tb.dut.iba_cnt[1][7] top.interleaver_tb.dut.iba_cnt[1][6] top.interleaver_tb.dut.iba_cnt[1][5] top.interleaver_tb.dut.iba_cnt[1][4] top.interleaver_tb.dut.iba_cnt[1][3] top.interleaver_tb.dut.iba_cnt[1][2] top.interleaver_tb.dut.iba_cnt[1][1] top.interleaver_tb.dut.iba_cnt[1][0]
+#{top.interleaver_tb.dut.iba_cnt[2][7:0]} top.interleaver_tb.dut.iba_cnt[2][7] top.interleaver_tb.dut.iba_cnt[2][6] top.interleaver_tb.dut.iba_cnt[2][5] top.interleaver_tb.dut.iba_cnt[2][4] top.interleaver_tb.dut.iba_cnt[2][3] top.interleaver_tb.dut.iba_cnt[2][2] top.interleaver_tb.dut.iba_cnt[2][1] top.interleaver_tb.dut.iba_cnt[2][0]
+#{top.interleaver_tb.dut.iba_cnt[3][7:0]} top.interleaver_tb.dut.iba_cnt[3][7] top.interleaver_tb.dut.iba_cnt[3][6] top.interleaver_tb.dut.iba_cnt[3][5] top.interleaver_tb.dut.iba_cnt[3][4] top.interleaver_tb.dut.iba_cnt[3][3] top.interleaver_tb.dut.iba_cnt[3][2] top.interleaver_tb.dut.iba_cnt[3][1] top.interleaver_tb.dut.iba_cnt[3][0]
+#{top.interleaver_tb.dut.iba_cnt[4][7:0]} top.interleaver_tb.dut.iba_cnt[4][7] top.interleaver_tb.dut.iba_cnt[4][6] top.interleaver_tb.dut.iba_cnt[4][5] top.interleaver_tb.dut.iba_cnt[4][4] top.interleaver_tb.dut.iba_cnt[4][3] top.interleaver_tb.dut.iba_cnt[4][2] top.interleaver_tb.dut.iba_cnt[4][1] top.interleaver_tb.dut.iba_cnt[4][0]
+#{top.interleaver_tb.dut.iba_cnt[5][7:0]} top.interleaver_tb.dut.iba_cnt[5][7] top.interleaver_tb.dut.iba_cnt[5][6] top.interleaver_tb.dut.iba_cnt[5][5] top.interleaver_tb.dut.iba_cnt[5][4] top.interleaver_tb.dut.iba_cnt[5][3] top.interleaver_tb.dut.iba_cnt[5][2] top.interleaver_tb.dut.iba_cnt[5][1] top.interleaver_tb.dut.iba_cnt[5][0]
+#{top.interleaver_tb.dut.iba_cnt[6][7:0]} top.interleaver_tb.dut.iba_cnt[6][7] top.interleaver_tb.dut.iba_cnt[6][6] top.interleaver_tb.dut.iba_cnt[6][5] top.interleaver_tb.dut.iba_cnt[6][4] top.interleaver_tb.dut.iba_cnt[6][3] top.interleaver_tb.dut.iba_cnt[6][2] top.interleaver_tb.dut.iba_cnt[6][1] top.interleaver_tb.dut.iba_cnt[6][0]
+#{top.interleaver_tb.dut.iba_cnt[7][7:0]} top.interleaver_tb.dut.iba_cnt[7][7] top.interleaver_tb.dut.iba_cnt[7][6] top.interleaver_tb.dut.iba_cnt[7][5] top.interleaver_tb.dut.iba_cnt[7][4] top.interleaver_tb.dut.iba_cnt[7][3] top.interleaver_tb.dut.iba_cnt[7][2] top.interleaver_tb.dut.iba_cnt[7][1] top.interleaver_tb.dut.iba_cnt[7][0]
+#{top.interleaver_tb.dut.iba_cnt[8][7:0]} top.interleaver_tb.dut.iba_cnt[8][7] top.interleaver_tb.dut.iba_cnt[8][6] top.interleaver_tb.dut.iba_cnt[8][5] top.interleaver_tb.dut.iba_cnt[8][4] top.interleaver_tb.dut.iba_cnt[8][3] top.interleaver_tb.dut.iba_cnt[8][2] top.interleaver_tb.dut.iba_cnt[8][1] top.interleaver_tb.dut.iba_cnt[8][0]
+#{top.interleaver_tb.dut.iba_cnt[9][7:0]} top.interleaver_tb.dut.iba_cnt[9][7] top.interleaver_tb.dut.iba_cnt[9][6] top.interleaver_tb.dut.iba_cnt[9][5] top.interleaver_tb.dut.iba_cnt[9][4] top.interleaver_tb.dut.iba_cnt[9][3] top.interleaver_tb.dut.iba_cnt[9][2] top.interleaver_tb.dut.iba_cnt[9][1] top.interleaver_tb.dut.iba_cnt[9][0]
+#{top.interleaver_tb.dut.iba_cnt[10][7:0]} top.interleaver_tb.dut.iba_cnt[10][7] top.interleaver_tb.dut.iba_cnt[10][6] top.interleaver_tb.dut.iba_cnt[10][5] top.interleaver_tb.dut.iba_cnt[10][4] top.interleaver_tb.dut.iba_cnt[10][3] top.interleaver_tb.dut.iba_cnt[10][2] top.interleaver_tb.dut.iba_cnt[10][1] top.interleaver_tb.dut.iba_cnt[10][0]
+#{top.interleaver_tb.dut.branch[3:0]} top.interleaver_tb.dut.branch[3] top.interleaver_tb.dut.branch[2] top.interleaver_tb.dut.branch[1] top.interleaver_tb.dut.branch[0]
+[pattern_trace] 1
+[pattern_trace] 0
